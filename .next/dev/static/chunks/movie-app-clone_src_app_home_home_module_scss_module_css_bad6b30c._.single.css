@@ -1,0 +1,55 @@
+/* [project]/movie-app-clone/src/app/home/home.module.scss.module.css [app-client] (css) */
+:root {
+  --color-black: black: --color-white:white;
+  --color-red: red;
+  --color-yellow: #eecd11;
+  --color-dark-pink: #58052f;
+  --color-light-greenish: #96e910;
+  --color-dark-brown: #361c04;
+  --color-orange: #af5214;
+  --color-dark-green: #167416;
+  --color-green: green;
+  --color-light-white: #f7f6f3;
+  --color-white: white;
+  --color-violet: #441294;
+  --color-light-blue: #01b4e4;
+  --color-blackborder-color: #fff3;
+  --color-lightseagreen: lightseagreen;
+  --color-light-gray: #b1a1a1;
+  --color-pink: #830a5a;
+  --color-blue: #032543;
+  --color-dark-violet: #410972;
+}
+
+.home-module-scss-module__dbm0bW__container {
+  width: 100%;
+}
+
+.home-module-scss-module__dbm0bW__container__heading {
+  text-align: center;
+  text-align: center;
+  color: #59069d;
+  background-image: url("/images/backdropImage.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 50vh;
+  padding: 4.5rem;
+  font-size: 3rem;
+  display: flex;
+}
+
+@media (max-width: 420px) {
+  .home-module-scss-module__dbm0bW__container__heading {
+    min-height: 35vh;
+    padding: 2.3rem;
+    font-size: 1.9rem;
+  }
+}
+
+/*# sourceMappingURL=movie-app-clone_src_app_home_home_module_scss_module_css_bad6b30c._.single.css.map*/

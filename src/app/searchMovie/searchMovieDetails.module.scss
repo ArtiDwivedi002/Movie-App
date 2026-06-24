@@ -1,0 +1,51 @@
+@use '@/style/variables.scss' as *;
+@use  '@/style/mixins.scss';
+.container{
+@include mixins.center();
+background-color:  #0f172a;
+    padding:$padding-sm;
+    &__heading{
+         font-size: $font-md;
+        text-transform: capitalize;
+        padding:$padding-sm;
+       color:var(--color-white);;
+    }
+
+}
+.container-search{
+    display: flex;
+    overflow:auto;
+    gap:$gap-md;
+    width:100%;
+    
+}
+.movie{
+    @include mixins.center();
+    &__images{
+        border-radius: $border-radius-xl;
+    }
+    &__title{
+    
+        font-size:$font-md;
+        color:var(--color-light-blue);
+    }
+    &__original-title{
+    
+        font-size:$font-sm;
+        color:var(--color-white);
+        margin:$margin-sm;
+    }
+    &__searching{
+        
+        color:var(--color-red);
+        font-size: $font-md;
+        text-transform: capitalize;
+       
+    }
+
+}
+.loading{
+ @include mixins.center;
+    color:var(--color-pink);
+    font-size: $font-md;
+}

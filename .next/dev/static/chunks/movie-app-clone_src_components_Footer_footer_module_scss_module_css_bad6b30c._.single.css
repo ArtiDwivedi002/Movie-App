@@ -1,0 +1,93 @@
+/* [project]/movie-app-clone/src/components/Footer/footer.module.scss.module.css [app-client] (css) */
+:root {
+  --color-black: black: --color-white:white;
+  --color-red: red;
+  --color-yellow: #eecd11;
+  --color-dark-pink: #58052f;
+  --color-light-greenish: #96e910;
+  --color-dark-brown: #361c04;
+  --color-orange: #af5214;
+  --color-dark-green: #167416;
+  --color-green: green;
+  --color-light-white: #f7f6f3;
+  --color-white: white;
+  --color-violet: #441294;
+  --color-light-blue: #01b4e4;
+  --color-blackborder-color: #fff3;
+  --color-lightseagreen: lightseagreen;
+  --color-light-gray: #b1a1a1;
+  --color-pink: #830a5a;
+  --color-blue: #032543;
+  --color-dark-violet: #410972;
+}
+
+.footer-module-scss-module__okQc0a__container-footer {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  border-radius: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 2.3rem;
+  font-size: .9rem;
+  display: flex;
+}
+
+@media (max-width: 420px) {
+  .footer-module-scss-module__okQc0a__container-footer {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+}
+
+.footer-module-scss-module__okQc0a__container-footer > div {
+  flex: 1;
+  min-width: 180px;
+}
+
+.footer-module-scss-module__okQc0a__container-footer h2 {
+  color: var(--color-light-blue);
+  margin-bottom: .8rem;
+  font-size: .9rem;
+}
+
+.footer-module-scss-module__okQc0a__container-footer p {
+  cursor: pointer;
+  margin: 6px 0;
+  transition: all .3s;
+}
+
+.footer-module-scss-module__okQc0a__container-footer p:hover {
+  color: var(--color-light-blue);
+}
+
+.footer-module-scss-module__okQc0a__container-footer img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.footer-module-scss-module__okQc0a__btn {
+  text-align: center;
+  color: var(--color-light-blue);
+  border: 1px solid var(--color-light-blue);
+  cursor: pointer;
+  background: none;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 2.3rem 0;
+  padding: .9rem;
+  font-size: .9rem;
+  transition: all .3s;
+}
+
+.footer-module-scss-module__okQc0a__btn:hover {
+  background-color: var(--color-light-blue);
+  color: var(--color-black);
+}
+
+/*# sourceMappingURL=movie-app-clone_src_components_Footer_footer_module_scss_module_css_bad6b30c._.single.css.map*/

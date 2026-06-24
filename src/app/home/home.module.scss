@@ -1,0 +1,36 @@
+@use "@/style/variables.scss" as *;
+@use "@/style/mixins.scss";
+
+.container {
+  width: 100%;
+
+  &__heading {
+    @include mixins.center();
+
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+
+    color: rgb(89, 6, 157);
+
+    padding: $padding-lg;
+
+    background-image: url("/images/backdropImage.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    min-height: 50vh;
+
+    border-radius: $border-radius-md;
+
+    font-size: $font-xl;
+
+    @include mixins.small-screen {
+      min-height: 35vh;
+      font-size: $font-lg;
+      padding: $padding-md;
+    }
+  }
+}

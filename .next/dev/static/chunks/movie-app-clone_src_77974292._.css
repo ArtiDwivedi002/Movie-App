@@ -1,0 +1,396 @@
+/* [project]/movie-app-clone/src/app/home/home.module.scss.module.css [app-client] (css) */
+:root {
+  --color-black: black: --color-white:white;
+  --color-red: red;
+  --color-yellow: #eecd11;
+  --color-dark-pink: #58052f;
+  --color-light-greenish: #96e910;
+  --color-dark-brown: #361c04;
+  --color-orange: #af5214;
+  --color-dark-green: #167416;
+  --color-green: green;
+  --color-light-white: #f7f6f3;
+  --color-white: white;
+  --color-violet: #441294;
+  --color-light-blue: #01b4e4;
+  --color-blackborder-color: #fff3;
+  --color-lightseagreen: lightseagreen;
+  --color-light-gray: #b1a1a1;
+  --color-pink: #830a5a;
+  --color-blue: #032543;
+  --color-dark-violet: #410972;
+}
+
+.home-module-scss-module__dbm0bW__container {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.home-module-scss-module__dbm0bW__container__heading {
+  text-align: center;
+  color: #59069d;
+  background-image: url("/images/backdropImage.webp");
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 50vh;
+  padding: 4.5rem;
+  font-size: 3rem;
+  display: flex;
+}
+
+/* [project]/movie-app-clone/src/components/Cards/movieCards.module.scss.module.css [app-client] (css) */
+:root {
+  --color-black: black: --color-white:white;
+  --color-red: red;
+  --color-yellow: #eecd11;
+  --color-dark-pink: #58052f;
+  --color-light-greenish: #96e910;
+  --color-dark-brown: #361c04;
+  --color-orange: #af5214;
+  --color-dark-green: #167416;
+  --color-green: green;
+  --color-light-white: #f7f6f3;
+  --color-white: white;
+  --color-violet: #441294;
+  --color-light-blue: #01b4e4;
+  --color-blackborder-color: #fff3;
+  --color-lightseagreen: lightseagreen;
+  --color-light-gray: #b1a1a1;
+  --color-pink: #830a5a;
+  --color-blue: #032543;
+  --color-dark-violet: #410972;
+}
+
+.movieCards-module-scss-module__fa7i0q__container {
+  text-align: center;
+  background-color: #0f172a;
+  justify-content: center;
+  align-items: center;
+  padding: 1.1rem;
+}
+
+.movieCards-module-scss-module__fa7i0q__container__heading {
+  text-transform: capitalize;
+  color: var(--color-white);
+  padding: 1.1rem;
+  font-size: 1.5rem;
+}
+
+.movieCards-module-scss-module__fa7i0q__movie-container {
+  background-color: #0f172a;
+  gap: 10px;
+  display: flex;
+  overflow: auto;
+}
+
+.movieCards-module-scss-module__fa7i0q__movie {
+  text-align: center;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.movieCards-module-scss-module__fa7i0q__movie__images {
+  border-radius: 20px;
+  position: relative;
+  box-shadow: 0 4px 6px #0000001a;
+}
+
+.movieCards-module-scss-module__fa7i0q__movie__title {
+  color: var(--color-light-blue);
+  font-size: 1.5rem;
+}
+
+.movieCards-module-scss-module__fa7i0q__movie__original-title {
+  color: var(--color-white);
+  margin: 1.1rem;
+  font-size: 1.2rem;
+}
+
+.movieCards-module-scss-module__fa7i0q__container-progress {
+  z-index: 10;
+  position: sticky;
+  transform: translate(80%, -80%);
+}
+
+.movieCards-module-scss-module__fa7i0q__progress-label {
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  color: var(--color-white);
+  background: radial-gradient(closest-side, #1a1a1a 75%, transparent 76% 100%), conic-gradient(#03be60 var(--progress), #4d4d4d 0deg);
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  font-size: .8rem;
+  font-weight: bold;
+  display: flex;
+}
+
+.movieCards-module-scss-module__fa7i0q__favorite-button {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(20%, -630%);
+}
+
+/* [project]/movie-app-clone/src/components/Header/header.module.scss.module.css [app-client] (css) */
+:root {
+  --color-black: black: --color-white:white;
+  --color-red: red;
+  --color-yellow: #eecd11;
+  --color-dark-pink: #58052f;
+  --color-light-greenish: #96e910;
+  --color-dark-brown: #361c04;
+  --color-orange: #af5214;
+  --color-dark-green: #167416;
+  --color-green: green;
+  --color-light-white: #f7f6f3;
+  --color-white: white;
+  --color-violet: #441294;
+  --color-light-blue: #01b4e4;
+  --color-blackborder-color: #fff3;
+  --color-lightseagreen: lightseagreen;
+  --color-light-gray: #b1a1a1;
+  --color-pink: #830a5a;
+  --color-blue: #032543;
+  --color-dark-violet: #410972;
+}
+
+.header-module-scss-module__zwWP6a__header-container {
+  text-align: center;
+  background-color: var(--color-blue);
+  color: var(--color-light-blue);
+  border-radius: 20px;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.header-module-scss-module__zwWP6a__header-container__logo {
+  cursor: pointer;
+  border-radius: 50px;
+  margin: 2.4rem;
+}
+
+.header-module-scss-module__zwWP6a__navbar-desktop {
+  margin: 20px;
+  display: flex;
+}
+
+.header-module-scss-module__zwWP6a__navbar-container {
+  border-radius: 20px;
+  margin: 1.1rem;
+  padding: 2.3rem;
+}
+
+.header-module-scss-module__zwWP6a__navbar-container__links {
+  color: var(--color-black);
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration-line: none;
+}
+
+.header-module-scss-module__zwWP6a__navbar-container__links:hover {
+  color: var(--color-white);
+}
+
+.header-module-scss-module__zwWP6a__hamburger-wrapper {
+  z-index: 10;
+  display: none;
+}
+
+.header-module-scss-module__zwWP6a__navbar-mobile-menu {
+  background-color: var(--color-blue);
+  box-shadow: 0 4px 6px var(--color-blackborder-color);
+  z-index: 5;
+  flex-direction: row;
+  padding: 1.1rem;
+  display: flex;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+.header-module-scss-module__zwWP6a__navbar-mobile-menu .header-module-scss-module__zwWP6a__navbar-container__links__mobile {
+  color: var(--color-white);
+  border-bottom: 1px solid var(--color-blackborder-color);
+  padding: 1.1rem;
+  text-decoration-line: none;
+  display: block;
+}
+
+.header-module-scss-module__zwWP6a__navbar-mobile-menu .header-module-scss-module__zwWP6a__navbar-container__links__mobile:hover {
+  color: var(--color-light-blue);
+}
+
+@media (max-width: 767px) {
+  .header-module-scss-module__zwWP6a__hamburger-wrapper {
+    display: block;
+  }
+
+  .header-module-scss-module__zwWP6a__navbar-desktop {
+    display: none;
+  }
+}
+
+/* [project]/movie-app-clone/src/components/Search/searchMovie.module.scss.module.css [app-client] (css) */
+:root {
+  --color-black: black: --color-white:white;
+  --color-red: red;
+  --color-yellow: #eecd11;
+  --color-dark-pink: #58052f;
+  --color-light-greenish: #96e910;
+  --color-dark-brown: #361c04;
+  --color-orange: #af5214;
+  --color-dark-green: #167416;
+  --color-green: green;
+  --color-light-white: #f7f6f3;
+  --color-white: white;
+  --color-violet: #441294;
+  --color-light-blue: #01b4e4;
+  --color-blackborder-color: #fff3;
+  --color-lightseagreen: lightseagreen;
+  --color-light-gray: #b1a1a1;
+  --color-pink: #830a5a;
+  --color-blue: #032543;
+  --color-dark-violet: #410972;
+}
+
+.searchMovie-module-scss-module__RtmSPa__container__heading {
+  text-transform: capitalize;
+  text-align: center;
+  margin: 30px;
+  font-size: 1.2rem;
+}
+
+.searchMovie-module-scss-module__RtmSPa__container__input {
+  background-color: var(--color-light-blue);
+  color: var(--color-white);
+  border-radius: 20px;
+  padding: 1.1rem;
+  font-size: 1.2rem;
+}
+
+.searchMovie-module-scss-module__RtmSPa__container__input::placeholder {
+  color: var(--color-white);
+  font-size: 1.2rem;
+}
+
+.searchMovie-module-scss-module__RtmSPa__container__button {
+  color: var(--color-white);
+  background-color: var(--color-blue);
+  border: 1px solid var(--color-white);
+  border-radius: 100px;
+  margin: -5.3rem;
+  padding: 1.1rem;
+  font-size: 1.2rem;
+}
+
+.searchMovie-module-scss-module__RtmSPa__container__button:hover {
+  color: var(--color-light-blue);
+}
+
+.searchMovie-module-scss-module__RtmSPa__search {
+  font-size: 1.2rem;
+}
+
+/* [project]/movie-app-clone/src/components/Footer/footer.module.scss.module.css [app-client] (css) */
+:root {
+  --color-black: black: --color-white:white;
+  --color-red: red;
+  --color-yellow: #eecd11;
+  --color-dark-pink: #58052f;
+  --color-light-greenish: #96e910;
+  --color-dark-brown: #361c04;
+  --color-orange: #af5214;
+  --color-dark-green: #167416;
+  --color-green: green;
+  --color-light-white: #f7f6f3;
+  --color-white: white;
+  --color-violet: #441294;
+  --color-light-blue: #01b4e4;
+  --color-blackborder-color: #fff3;
+  --color-lightseagreen: lightseagreen;
+  --color-light-gray: #b1a1a1;
+  --color-pink: #830a5a;
+  --color-blue: #032543;
+  --color-dark-violet: #410972;
+}
+
+.footer-module-scss-module__okQc0a__container-footer {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  border-radius: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 4.5rem;
+  font-size: 1.2rem;
+  display: flex;
+}
+
+@media (max-width: 420px) {
+  .footer-module-scss-module__okQc0a__container-footer {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+}
+
+.footer-module-scss-module__okQc0a__container-footer > div {
+  min-width: 150px;
+}
+
+.footer-module-scss-module__okQc0a__container-footer h2 {
+  color: var(--color-light-blue);
+  margin-bottom: .5rem;
+  font-size: 1.5rem;
+}
+
+.footer-module-scss-module__okQc0a__container-footer p {
+  color: var(--color-white);
+  cursor: pointer;
+  margin: 4px 0;
+  font-size: 1.2rem;
+}
+
+.footer-module-scss-module__okQc0a__container-footer img {
+  margin-bottom: 10px;
+}
+
+.footer-module-scss-module__okQc0a__btn {
+  text-align: center;
+  color: var(--color-light-blue);
+  border: 1px solid var(--color-light-blue);
+  cursor: pointer;
+  background: none;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 1.1rem;
+  padding: 1.1rem;
+  font-size: 1.2rem;
+  transition: all .3s;
+}
+
+.footer-module-scss-module__okQc0a__btn:hover {
+  background-color: var(--color-light-blue);
+  color: var(--color-black);
+}
+
+/*# sourceMappingURL=movie-app-clone_src_77974292._.css.map*/

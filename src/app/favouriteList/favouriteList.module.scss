@@ -1,0 +1,55 @@
+@use '@/style/variables.scss' as *;
+@use  '@/style/mixins.scss';
+.main-container{
+    background-color:  #0f172a;
+    display: flex;
+    gap:$gap-md;
+    overflow: auto;
+    margin:$margin-sm;
+    padding:$padding-sm;
+    &__heading{
+        color:var(--color-red);
+    }
+}
+.heading2{
+     font-size: $font-md;
+        text-transform: capitalize;
+        padding:$padding-sm;
+        margin: $margin-lg;
+       color:var(--color-white);
+
+}
+
+.container{
+    border-radius: $border-radius-md; 
+    @include mixins.center();   
+
+    &__images{
+        border-radius: $border-radius-md;
+    }
+     &__title{
+        font-size:$font-md;
+        color:var(--color-light-blue);
+        
+    }
+    &__original{
+        font-size: $font-md;
+        color:var(--color-white);
+    }
+    &__delbtn{
+        color:var(--color-black);
+        font-size: $font-sm;
+        padding:$padding-sm;
+        margin:$margin-sm;
+        background-color: var(--color-red);
+        color:var(--color-black);
+        border-radius: $border-radius-md;
+
+        &:hover{
+            color:var(--color-white);
+            cursor: pointer;
+          
+        }
+    }
+
+}

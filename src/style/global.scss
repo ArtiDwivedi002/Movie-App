@@ -1,0 +1,19 @@
+@use '@/style/variables.scss' as *;
+@use '@/style/mixins.scss' ;
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.app-bg {
+  background: linear-gradient(
+    135deg,
+    #0d1f70,   
+    #0d2252,   
+    #071657
+  );
+
+  min-height: 100vh;
+  color: var(--color-white);
+}

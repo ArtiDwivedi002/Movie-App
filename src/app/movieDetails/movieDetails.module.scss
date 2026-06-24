@@ -1,0 +1,89 @@
+@use '@/style/variables.scss' as *;
+@use  '@/style/mixins.scss';
+.container {
+  background-color: #0f172a; // 🎬 dark blue bg
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: $border-radius-md;
+}
+
+/* 🎬 Card */
+.card {
+  background-color: #1e293b;
+  border-radius: 16px;
+  overflow: hidden;
+  width: 400px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+}
+.heading{
+  text-align: center;
+  font-size: 1.2rem;
+  color: #6366f1;
+}
+
+/* 🎬 Image */
+.card__image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+/* 🎬 Content */
+.card__content {
+  padding: 1rem;
+  color: white;
+}
+
+/* 🎬 Header (title + rating) */
+.card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* 🎬 Title */
+.card__header h3 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* ⭐ Rating badge */
+.card__rating {
+  background-color: #facc15; // yellow
+  color: black;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+/* 🎬 Overview */
+.card__overview {
+  font-size: 0.85rem;
+  color: #cbd5f5;
+  margin-top: 0.5rem;
+}
+
+/* 🎯 Button */
+.card__btn {
+  margin-top: 2rem;
+  width: 100%;
+  padding: 0.6rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #6366f1;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: #4f46e5;
+  }
+}

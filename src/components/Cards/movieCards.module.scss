@@ -1,0 +1,75 @@
+@use '@/style/variables.scss' as *;
+@use  '@/style/mixins.scss';
+
+.container{
+@include mixins.center();
+background-color:  #0f172a;
+    padding:$padding-sm;
+    &__heading{
+         font-size: $font-md;
+        text-transform: capitalize;
+        padding:$padding-sm;
+       color:var(--color-white);;
+    }
+
+}
+.movie-container{
+    display: flex;
+    gap:$gap-sm;
+    overflow:auto;
+    background-color:  #0f172a;
+   
+}
+.movie{
+   @include mixins.center();
+    border-radius: $border-radius-md;
+    &__images{
+    
+       border-radius:$border-radius-md;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      position: relative;
+  
+    }
+    &__title{
+    
+        font-size:$font-md;
+        color:var(--color-light-blue);
+    }
+    &__original-title{
+    
+        font-size:$font-sm;
+        color:var(--color-white);
+        margin:$margin-sm;
+    }
+}
+.container-progress{
+    position:sticky;
+    z-index:$z-index-md;
+    transform: translate(80%,-80%);
+}
+.progress-label{
+    width: 50px;
+  height: 50px;
+  border-radius:$border-radius-xl;
+display: flex;
+@include mixins.center();
+  font-size: 0.8rem;
+  font-weight: bold;    
+  color:var(--color-white);
+   background: 
+
+    radial-gradient(closest-side, #1a1a1a 75%, transparent 76% 100%), 
+    conic-gradient(rgb(3, 190, 96) var(--progress), #4d4d4d 0deg);
+}
+
+.favorite-button{
+  position:absolute;
+  top:0;
+  left:0;
+    transform: translate(20%,-630%);
+    cursor: pointer;
+    
+
+
+}
+
