@@ -1,0 +1,105 @@
+/* [project]/src/app/movieDetails/movieDetails.module.scss.module.css [app-client] (css) */
+:root {
+  --color-black: black: --color-white:white;
+  --color-red: red;
+  --color-yellow: #eecd11;
+  --color-dark-pink: #58052f;
+  --color-light-greenish: #96e910;
+  --color-dark-brown: #361c04;
+  --color-orange: #af5214;
+  --color-dark-green: #167416;
+  --color-green: green;
+  --color-light-white: #f7f6f3;
+  --color-white: white;
+  --color-violet: #441294;
+  --color-light-blue: #01b4e4;
+  --color-blackborder-color: #fff3;
+  --color-lightseagreen: lightseagreen;
+  --color-light-gray: #b1a1a1;
+  --color-pink: #830a5a;
+  --color-blue: #032543;
+  --color-dark-violet: #410972;
+}
+
+.movieDetails-module-scss-module__9KVLaa__container {
+  background-color: #0f172a;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  display: flex;
+}
+
+.movieDetails-module-scss-module__9KVLaa__card {
+  background-color: #1e293b;
+  border-radius: 16px;
+  width: 400px;
+  transition: transform .3s;
+  overflow: hidden;
+  box-shadow: 0 10px 30px #00000080;
+}
+
+.movieDetails-module-scss-module__9KVLaa__card:hover {
+  transform: translateY(-5px);
+}
+
+.movieDetails-module-scss-module__9KVLaa__heading {
+  text-align: center;
+  color: #6366f1;
+  font-size: 1.2rem;
+}
+
+.movieDetails-module-scss-module__9KVLaa__card__image {
+  object-fit: cover;
+  width: 100%;
+  height: 400px;
+}
+
+.movieDetails-module-scss-module__9KVLaa__card__content {
+  color: #fff;
+  padding: 1rem;
+}
+
+.movieDetails-module-scss-module__9KVLaa__card__header {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.movieDetails-module-scss-module__9KVLaa__card__header h3 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.movieDetails-module-scss-module__9KVLaa__card__rating {
+  color: #000;
+  background-color: #facc15;
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-size: .8rem;
+  font-weight: bold;
+}
+
+.movieDetails-module-scss-module__9KVLaa__card__overview {
+  color: #cbd5f5;
+  margin-top: .5rem;
+  font-size: .85rem;
+}
+
+.movieDetails-module-scss-module__9KVLaa__card__btn {
+  color: #fff;
+  cursor: pointer;
+  background-color: #6366f1;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  margin-top: 2rem;
+  padding: .6rem;
+  transition: all .3s;
+}
+
+.movieDetails-module-scss-module__9KVLaa__card__btn:hover {
+  background-color: #4f46e5;
+}
+
+/*# sourceMappingURL=src_app_movieDetails_movieDetails_module_scss_module_6060f676.css.map*/

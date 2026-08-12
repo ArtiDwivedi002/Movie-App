@@ -21,50 +21,50 @@ export default function MovieCards({
   return (
     <Fragment>
       <div className={style["main-container"]}>
-         <div className={style["container"]}>
-        <h2 className={style["container__heading"]}> {title}</h2>
-      </div>
-      <div className={style["movie-container"]}>
-        {movieList?.map((list) => (
-          <div className={style["movie"]} key={list?.id}>
-            <Image
-              onClick={() => onCardClick(list.id)}
-              className={style["movie__images"]}
-              src={`${ConfigMovie.image_url}/w500/${list?.poster_path}`}
-              alt="images"
-              width={300}
-              height={300}
-              unoptimized
-            />
-            <div className={style["container-progress"]}>
-              <span
-                className={style["progress-label"]}
-                style={
-                  { "--progress": `${list?.vote_average * 10 }%` } as React.CSSProperties
-                }
-              >
-                {Math.round(list.vote_average * 10) ?? "30%"}%
-              </span>
-              <div
-                onClick={() => favouriteToggle(list)}
-                className={style["favorite-button"]}
-              >
-                {isFavourite(list?.id) ? (
-                  <FcLike size={35} />
-                ) : (
-                  <IoHeartOutline size={35} color="#ccc" />
-                )}
+        <div className={style["container"]}>
+          <h2 className={style["container__heading"]}> {title}</h2>
+        </div>
+        <div className={style["movie-container"]}>
+          {movieList?.map((list) => (
+            <div className={style["movie"]} key={list?.id}>
+              <Image
+                onClick={() => onCardClick(list.id)}
+                className={style["movie__images"]}
+                src={`${ConfigMovie.image_url}/w500/${list?.poster_path}`}
+                alt={list?.title || "Movie"}
+                width={200}
+                height={300}
+                unoptimized
+              />
+              <div className={style["container-progress"]}>
+                <span
+                  className={style["progress-label"]}
+                  style={
+                    { "--progress": `${list?.vote_average * 10}%` } as React.CSSProperties
+                  }
+                >
+                  {Math.round(list.vote_average * 10) ?? "30%"}%
+                </span>
+                <div
+                  onClick={() => favouriteToggle(list)}
+                  className={style["favorite-button"]}
+                >
+                  {isFavourite(list?.id) ? (
+                    <FcLike size={35} />
+                  ) : (
+                    <IoHeartOutline size={35} color="#ccc" />
+                  )}
+                </div>
               </div>
+              <h1 className={style["movie__title"]}>{list.title}</h1>
+              <h2 className={style["movie__original-title"]}>
+                {list?.original_title}
+              </h2>
             </div>
-            <h1 className={style["movie__title"]}>{list.title}</h1>
-            <h2 className={style["movie__original-title"]}>
-              {list?.original_title}
-            </h2>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
-      </div>
-     
+
     </Fragment>
   );
 }

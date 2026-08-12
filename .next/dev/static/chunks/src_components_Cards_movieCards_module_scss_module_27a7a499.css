@@ -1,0 +1,98 @@
+/* [project]/src/components/Cards/movieCards.module.scss.module.css [app-client] (css) */
+:root {
+  --color-black: black: --color-white:white;
+  --color-red: red;
+  --color-yellow: #eecd11;
+  --color-dark-pink: #58052f;
+  --color-light-greenish: #96e910;
+  --color-dark-brown: #361c04;
+  --color-orange: #af5214;
+  --color-dark-green: #167416;
+  --color-green: green;
+  --color-light-white: #f7f6f3;
+  --color-white: white;
+  --color-violet: #441294;
+  --color-light-blue: #01b4e4;
+  --color-blackborder-color: #fff3;
+  --color-lightseagreen: lightseagreen;
+  --color-light-gray: #b1a1a1;
+  --color-pink: #830a5a;
+  --color-blue: #032543;
+  --color-dark-violet: #410972;
+}
+
+.movieCards-module-scss-module__1HaAfG__container {
+  text-align: center;
+  background-color: #0f172a;
+  justify-content: center;
+  align-items: center;
+  padding: 1.1rem;
+}
+
+.movieCards-module-scss-module__1HaAfG__container__heading {
+  text-transform: capitalize;
+  color: var(--color-white);
+  padding: 1.1rem;
+  font-size: 1.5rem;
+}
+
+.movieCards-module-scss-module__1HaAfG__movie-container {
+  background-color: #0f172a;
+  gap: 10px;
+  display: flex;
+  overflow: auto;
+}
+
+.movieCards-module-scss-module__1HaAfG__movie {
+  text-align: center;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.movieCards-module-scss-module__1HaAfG__movie__images {
+  border-radius: 20px;
+  position: relative;
+  box-shadow: 0 4px 6px #0000001a;
+}
+
+.movieCards-module-scss-module__1HaAfG__movie__title {
+  color: var(--color-light-blue);
+  font-size: 1.5rem;
+}
+
+.movieCards-module-scss-module__1HaAfG__movie__original-title {
+  color: var(--color-white);
+  margin: 1.1rem;
+  font-size: 1.2rem;
+}
+
+.movieCards-module-scss-module__1HaAfG__container-progress {
+  z-index: 10;
+  position: sticky;
+  transform: translate(80%, -80%);
+}
+
+.movieCards-module-scss-module__1HaAfG__progress-label {
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  color: var(--color-white);
+  background: radial-gradient(closest-side, #1a1a1a 75%, transparent 76% 100%), conic-gradient(#03be60 var(--progress), #4d4d4d 0deg);
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  font-size: .7rem;
+  font-weight: bold;
+  display: flex;
+}
+
+.movieCards-module-scss-module__1HaAfG__favorite-button {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(20%, -630%);
+}
+
+/*# sourceMappingURL=src_components_Cards_movieCards_module_scss_module_27a7a499.css.map*/

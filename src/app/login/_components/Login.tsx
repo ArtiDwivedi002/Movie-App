@@ -75,10 +75,30 @@ export default function Login() {
         <Form.Control.Feedback type="invalid">{formik.errors.password}</Form.Control.Feedback>
       </Form.Group>
       <div className="d-grid">
-        <Button size="lg" type="submit">
-          Login
-        </Button>
-      </div>
+  <Button size="lg" type="submit">
+    Login
+  </Button>
+</div>
+
+<div className="text-center mt-4">
+  <p className="mb-2 text-white">
+    Don't have an account?{" "}
+    <Button
+      variant="link"
+      className="p-0 text-decoration-none"
+      onClick={() => routes.push("/register")}
+    >
+      Register
+    </Button>
+  </p>
+
+  <Button
+    variant="outline-light"
+    onClick={() => routes.push("/")}
+  >
+    Back to Home
+  </Button>
+</div>
     </Form>
   </div> 
 );
