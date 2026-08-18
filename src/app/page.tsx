@@ -17,7 +17,7 @@ export default function MainPage() {
       }}
     >
       <h1 className="display-3 fw-bold mb-3">
-        🎬 Welcome to Movie App
+        🎬 Welcome to Cine Browser App
       </h1>
 
       <p className="lead mb-5">

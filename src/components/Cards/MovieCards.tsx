@@ -50,9 +50,9 @@ export default function MovieCards({
                   className={style["favorite-button"]}
                 >
                   {isFavourite(list?.id) ? (
-                    <FcLike size={35} />
+                    <FcLike size={35} color="black" />
                   ) : (
-                    <IoHeartOutline size={35} color="#ccc" />
+                    <IoHeartOutline size={35} color="#d11e1e" />
                   )}
                 </div>
               </div>

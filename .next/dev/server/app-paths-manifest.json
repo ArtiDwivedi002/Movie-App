@@ -1,7 +1,12 @@
 {
+  "/favouriteList/page": "app/favouriteList/page.js",
   "/home/page": "app/home/page.js",
   "/login/page": "app/login/page.js",
+  "/movieDetails/[id]/page": "app/movieDetails/[id]/page.js",
   "/page": "app/page.js",
   "/register/page": "app/register/page.js",
-  "/searchMovie/[text]/page": "app/searchMovie/[text]/page.js"
+  "/searchMovie/[text]/page": "app/searchMovie/[text]/page.js",
+  "/topRatedMovie/page": "app/topRatedMovie/page.js",
+  "/trendingMovie/page": "app/trendingMovie/page.js",
+  "/upComingMovie/page": "app/upComingMovie/page.js"
 }

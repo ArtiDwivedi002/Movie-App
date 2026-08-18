@@ -108,14 +108,15 @@ function MovieCards({ movieList, title, onCardClick }) {
                                             onClick: ()=>favouriteToggle(list),
                                             className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Cards$2f$movieCards$2e$module$2e$scss__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"]["favorite-button"],
                                             children: isFavourite(list?.id) ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fc$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FcLike"], {
-                                                size: 35
+                                                size: 35,
+                                                color: "black"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Cards/MovieCards.tsx",
                                                 lineNumber: 53,
                                                 columnNumber: 21
                                             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$io5$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["IoHeartOutline"], {
                                                 size: 35,
-                                                color: "#ccc"
+                                                color: "#d11e1e"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Cards/MovieCards.tsx",
                                                 lineNumber: 55,

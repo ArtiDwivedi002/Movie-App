@@ -146,11 +146,11 @@ var _s = __turbopack_context__.k.signature();
 function MovieCards(t0) {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(13);
-    if ($[0] !== "c2b756c808ea4c828e940892bca3a1811b357be61e6a86afcfab4ac5bb40cf6f") {
+    if ($[0] !== "75398aacd32aa62a4b24c4125b4487623c0be70000715c66ef1cf1393dd6c367") {
         for(let $i = 0; $i < 13; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "c2b756c808ea4c828e940892bca3a1811b357be61e6a86afcfab4ac5bb40cf6f";
+        $[0] = "75398aacd32aa62a4b24c4125b4487623c0be70000715c66ef1cf1393dd6c367";
     }
     const { movieList, title, onCardClick } = t0;
     const { isFavourite, favouriteToggle } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$context$2f$favouriteContext$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useFavourite"])();
@@ -223,7 +223,8 @@ function MovieCards(t0) {
                                     }["MovieCards[(anonymous)() > <div>.onClick]"],
                                     className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Cards$2f$movieCards$2e$module$2e$scss__$5b$app$2d$client$5d$__$28$css__module$29$__["default"]["favorite-button"],
                                     children: isFavourite(list?.id) ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fc$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FcLike"], {
-                                        size: 35
+                                        size: 35,
+                                        fill: "#e50e0e"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Cards/MovieCards.tsx",
                                         lineNumber: 51,
@@ -234,7 +235,7 @@ function MovieCards(t0) {
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Cards/MovieCards.tsx",
                                         lineNumber: 51,
-                                        columnNumber: 144
+                                        columnNumber: 159
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/Cards/MovieCards.tsx",
@@ -253,7 +254,7 @@ function MovieCards(t0) {
                         }, void 0, false, {
                             fileName: "[project]/src/components/Cards/MovieCards.tsx",
                             lineNumber: 51,
-                            columnNumber: 198
+                            columnNumber: 213
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                             className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Cards$2f$movieCards$2e$module$2e$scss__$5b$app$2d$client$5d$__$28$css__module$29$__["default"]["movie__original-title"],
@@ -261,7 +262,7 @@ function MovieCards(t0) {
                         }, void 0, false, {
                             fileName: "[project]/src/components/Cards/MovieCards.tsx",
                             lineNumber: 51,
-                            columnNumber: 250
+                            columnNumber: 265
                         }, this)
                     ]
                 }, list?.id, true, {
